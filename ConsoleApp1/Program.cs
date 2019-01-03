@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SingletonPattern;
+using System;
 
 namespace TestFactory
 {
@@ -12,9 +13,15 @@ namespace TestFactory
             //var middlewareFactory = new MiddlewareFactory();
             //IMiddleware middleware = middlewareFactory.GetMiddleware((int)CommonObj.SQLEnum.SQLServer);
             //middleware.DoAction();
-            //middleware = middlewareFactory.GetMiddleware((int)CommonObj.SQLEnum.MySQL);s
+            //middleware = middlewareFactory.GetMiddleware((int)CommonObj.SQLEnum.MySQL);
             //middleware.DoAction();
+            Console.WriteLine("Test Singleton!");
+            UserLogging user =  UserLogging.LoggingSingleInstance;
+            user.UserName = "Thien";
+            UserLogging user1 = UserLogging.LoggingSingleInstance;
 
+            user.Logging();
+            user1.Logging();
             Console.Read();
         }
     }
