@@ -1,6 +1,4 @@
 ﻿using System;
-using Factory;
-using StaticObj;
 
 namespace TestFactory
 {
