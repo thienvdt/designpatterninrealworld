@@ -4,10 +4,10 @@ using System.Text;
 
 namespace SingletonPattern
 {
-    interface IUserLogging
+    interface IUserLoging
     {
          string UserName { get; set; }
          string UserPassword { get; set; }
-         void Logging();
+         void ShowCurrentLogin();
     }
 }
