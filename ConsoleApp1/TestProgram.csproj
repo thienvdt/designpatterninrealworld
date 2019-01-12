@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ServiceManagement\ServiceManagement.csproj" />
     <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj" />
     <ProjectReference Include="..\Singleton\FactoryPattern.csproj" />
     <ProjectReference Include="..\StaticObj\StaticObj.csproj" />

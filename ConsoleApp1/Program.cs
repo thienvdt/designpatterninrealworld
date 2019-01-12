@@ -3,6 +3,8 @@ using SingletonPattern;
 using StaticObj;
 using System;
 using System.Threading;
+using ServiceManagement;
+
 
 namespace TestProgram
 {
@@ -12,9 +14,25 @@ namespace TestProgram
 
         static void Main(string[] args)
         {
-
+            TestDI();
             //TestFactory();
-            TestSingleTon();
+           // TestSingleTon();
+        }
+        private static void TestDI()
+        {
+            //inject by contractor
+            // UserService user = new UserService((int)CommonObj.SQLEnum.MySQL);
+            // UserService user = new UserService((int)CommonObj.SQLEnum.SQLServer);
+
+            UserService user = new UserService();
+            //inject by setter
+            //user.Databasekey = (int)CommonObj.SQLEnum.MySQL;
+
+            //inject by method
+            user.SetDataBase((int)CommonObj.SQLEnum.MySQL);
+            user.StartConnect();
+            Console.ReadKey();
+
         }
         private static void TestSingleTon()
         {

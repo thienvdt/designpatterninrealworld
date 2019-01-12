@@ -24,6 +24,7 @@ namespace StaticObj
             [Description("Cannot login {0} user(s) at the same time")]
             MultipleLoginErrorMessage,
         }
+
     }
    
 }
