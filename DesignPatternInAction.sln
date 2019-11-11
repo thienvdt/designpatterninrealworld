@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2019
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProgram", "ConsoleApp1\TestProgram.csproj", "{2443C503-55BA-4588-AB8E-44941C5FACA0}"
 EndProject
@@ -35,13 +35,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sevices", "Sevices", "{DFE8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApplication", "WebApplication1\MyApplication.csproj", "{DB86F30D-C15E-4273-810A-3EB711259E28}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TypeScriptWithExpress", "ExpressApp1\TypeScriptWithExpress.njsproj", "{D97DEE10-0D29-4715-944F-A4965DF770AE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConstructualPattern", "ConstructualPattern", "{EF9451B1-183E-4FB3-94B0-6760184A2B53}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPattern", "StructuralPattern", "{EF9451B1-183E-4FB3-94B0-6760184A2B53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPattern", "CreationalPattern", "{36851FE9-0F09-4927-AC60-54C22BADDD18}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPattern", "BehavioralPattern", "{24E5F7E0-4E0B-4216-BA42-4587EBB5E05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalancerSingleInstance", "LoadBalancerSingleInstance\LoadBalancerSingleInstance.csproj", "{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,10 +81,10 @@ Global
 		{DB86F30D-C15E-4273-810A-3EB711259E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB86F30D-C15E-4273-810A-3EB711259E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB86F30D-C15E-4273-810A-3EB711259E28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D97DEE10-0D29-4715-944F-A4965DF770AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D97DEE10-0D29-4715-944F-A4965DF770AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D97DEE10-0D29-4715-944F-A4965DF770AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D97DEE10-0D29-4715-944F-A4965DF770AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,10 +98,10 @@ Global
 		{A4B88854-FEF9-4799-A991-3B2398D1FAF8} = {0155A1A6-4A15-4036-9038-D06C90933627}
 		{4408E9D9-9A85-4BFE-AF09-5E20B18931CA} = {24E5F7E0-4E0B-4216-BA42-4587EBB5E05D}
 		{DB86F30D-C15E-4273-810A-3EB711259E28} = {78A3BC94-58EA-48BC-9489-12CEE346448F}
-		{D97DEE10-0D29-4715-944F-A4965DF770AE} = {78A3BC94-58EA-48BC-9489-12CEE346448F}
 		{EF9451B1-183E-4FB3-94B0-6760184A2B53} = {F9DD42EF-E798-41BF-84D9-758B70A1ACF9}
 		{36851FE9-0F09-4927-AC60-54C22BADDD18} = {F9DD42EF-E798-41BF-84D9-758B70A1ACF9}
 		{24E5F7E0-4E0B-4216-BA42-4587EBB5E05D} = {F9DD42EF-E798-41BF-84D9-758B70A1ACF9}
+		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F} = {EF9451B1-183E-4FB3-94B0-6760184A2B53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {918239B4-F2DD-4B1E-8B14-60CD9A0C91BC}
