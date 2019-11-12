@@ -24,7 +24,21 @@ namespace StaticObj
             [Description("Cannot login {0} user(s) at the same time")]
             MultipleLoginErrorMessage,
         }
-
+        public enum MilkTeaIngedients
+        {
+            [Description("sugar")]
+            Sugar,
+            [Description("coffee")]
+            Coffee,
+            [Description("milk")]
+            Milk,
+            [Description("pearl")]
+            Pearl,
+            [Description("water")]
+            Water,
+            [Description("tea")]
+            Tea
+        }
     }
    
 }
