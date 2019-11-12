@@ -9,7 +9,7 @@ namespace BankCardPrototypePattern
             CardManager card = new CardManager();
             card["CashBack"] = new Card("Cash back money when paying goods", "CreaditCard");
             card["ATM"] = new Card("Withdrwal money at ATM", "ATM");
-            card["Creadit"] = new Card("Credit money to card", "Credit");
+            card["Credit"] = new Card("Credit money to card", "Credit");
             card["Debit"] = new Card("Pay money first", "Debit");
 
             Customer cs = new Customer(1, "Alex Vo");
@@ -17,10 +17,9 @@ namespace BankCardPrototypePattern
             //Assign credit card to customer Alex
             cs.CustomerCards.Add(card["CashBack"].Clone() as Card);
             cs.CustomerCards.Add(card["ATM"].Clone() as Card);
-            cs.CustomerCards.Add(card["Creadit"].Clone() as Card);
+            cs.CustomerCards.Add(card["Credit"].Clone() as Card);
             cs.CustomerCards.Add(card["Debit"].Clone() as Card);
 
-            Console.WriteLine($"Card informartion of customer {cs.CustomerName}");
 
             //Assign credit card to customer John Doe
 
@@ -29,7 +28,7 @@ namespace BankCardPrototypePattern
             cs1.CustomerCards.Add(card["ATM"].Clone() as Card);
 
 
-   
+            Console.WriteLine($"Card informartion of customer {cs.CustomerName}");
             for (int i = 0; i < cs.CustomerCards.Count; i++)
             { 
                 Console.WriteLine("=================***====================");

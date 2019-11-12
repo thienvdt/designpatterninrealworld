@@ -19,7 +19,7 @@
         public override CardPrototype Clone()
         {
             Console.WriteLine($"Clonning Card...{this.CardType}");
-            return new Card(this.CardPurpose, this.CardType);
+            return this.MemberwiseClone() as CardPrototype;
         }
     }
     public class CardManager
