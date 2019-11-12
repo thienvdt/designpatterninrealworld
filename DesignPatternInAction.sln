@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPattern", "Behavi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalancerSingleInstance", "LoadBalancerSingleInstance\LoadBalancerSingleInstance.csproj", "{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankCardPrototypePattern", "BankCardPrototypePattern\BankCardPrototypePattern.csproj", "{2548BE7B-EFB7-4375-BD4E-930475E479EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2548BE7B-EFB7-4375-BD4E-930475E479EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2548BE7B-EFB7-4375-BD4E-930475E479EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2548BE7B-EFB7-4375-BD4E-930475E479EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2548BE7B-EFB7-4375-BD4E-930475E479EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{36851FE9-0F09-4927-AC60-54C22BADDD18} = {F9DD42EF-E798-41BF-84D9-758B70A1ACF9}
 		{24E5F7E0-4E0B-4216-BA42-4587EBB5E05D} = {F9DD42EF-E798-41BF-84D9-758B70A1ACF9}
 		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F} = {EF9451B1-183E-4FB3-94B0-6760184A2B53}
+		{2548BE7B-EFB7-4375-BD4E-930475E479EE} = {36851FE9-0F09-4927-AC60-54C22BADDD18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {918239B4-F2DD-4B1E-8B14-60CD9A0C91BC}
