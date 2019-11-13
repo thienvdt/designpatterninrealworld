@@ -39,21 +39,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPattern", "Creati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPattern", "BehavioralPattern", "{24E5F7E0-4E0B-4216-BA42-4587EBB5E05D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalancerSingleInstance", "LoadBalancerSingleInstance\LoadBalancerSingleInstance.csproj", "{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadBalancerSingleInstance", "LoadBalancerSingleInstance\LoadBalancerSingleInstance.csproj", "{B2E263CA-5781-47EB-A19B-EDDC7E43B88F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankCardPrototypePattern", "BankCardPrototypePattern\BankCardPrototypePattern.csproj", "{2548BE7B-EFB7-4375-BD4E-930475E479EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankCardPrototypePattern", "BankCardPrototypePattern\BankCardPrototypePattern.csproj", "{2548BE7B-EFB7-4375-BD4E-930475E479EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilkTeaStoreManagerBuilderPattern", "MilteaStoreManagerBuilderPattern\MilkTeaStoreManagerBuilderPattern.csproj", "{DFC21456-1626-4225-B4B7-A73D15D4519D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilkTeaStoreManagerBuilderPattern", "MilteaStoreManagerBuilderPattern\MilkTeaStoreManagerBuilderPattern.csproj", "{DFC21456-1626-4225-B4B7-A73D15D4519D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{896E3916-DAAD-419B-B7C6-7519AA1E183D} = {896E3916-DAAD-419B-B7C6-7519AA1E183D}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicAdapterPattern", "ElectronicAdapterPattern\ElectronicAdapterPattern.csproj", "{D76609C7-5274-4CCE-A487-D3316E0D651F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectronicAdapterPattern", "ElectronicAdapterPattern\ElectronicAdapterPattern.csproj", "{D76609C7-5274-4CCE-A487-D3316E0D651F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89D5F820-5F71-479B-AF18-9D11368DE46D}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{3C32EA63-F939-4DA2-8485-9C53C30F8B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{38155083-0D49-4A44-9B1E-AB7268E305DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,10 @@ Global
 		{D76609C7-5274-4CCE-A487-D3316E0D651F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D76609C7-5274-4CCE-A487-D3316E0D651F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D76609C7-5274-4CCE-A487-D3316E0D651F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38155083-0D49-4A44-9B1E-AB7268E305DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38155083-0D49-4A44-9B1E-AB7268E305DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38155083-0D49-4A44-9B1E-AB7268E305DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38155083-0D49-4A44-9B1E-AB7268E305DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,7 +131,9 @@ Global
 		{B2E263CA-5781-47EB-A19B-EDDC7E43B88F} = {36851FE9-0F09-4927-AC60-54C22BADDD18}
 		{2548BE7B-EFB7-4375-BD4E-930475E479EE} = {36851FE9-0F09-4927-AC60-54C22BADDD18}
 		{DFC21456-1626-4225-B4B7-A73D15D4519D} = {36851FE9-0F09-4927-AC60-54C22BADDD18}
-		{D76609C7-5274-4CCE-A487-D3316E0D651F} = {EF9451B1-183E-4FB3-94B0-6760184A2B53}
+		{D76609C7-5274-4CCE-A487-D3316E0D651F} = {3C32EA63-F939-4DA2-8485-9C53C30F8B6C}
+		{3C32EA63-F939-4DA2-8485-9C53C30F8B6C} = {EF9451B1-183E-4FB3-94B0-6760184A2B53}
+		{38155083-0D49-4A44-9B1E-AB7268E305DD} = {3C32EA63-F939-4DA2-8485-9C53C30F8B6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {918239B4-F2DD-4B1E-8B14-60CD9A0C91BC}

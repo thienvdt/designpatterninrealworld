@@ -6,7 +6,11 @@ namespace ElectronicAdapterPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Charger charger = new Adapter();
+
+            charger.Charge();
         }
+       
+
     }
 }
