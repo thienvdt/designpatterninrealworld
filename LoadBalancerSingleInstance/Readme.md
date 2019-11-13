@@ -1,0 +1,1 @@
+﻿Simple load banlancing server using Asp.Net core 2.2 and Singleton instance

@@ -1,0 +1,1 @@
+﻿Electronic device adapter pattern
