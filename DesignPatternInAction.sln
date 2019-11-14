@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProgram", "ConsoleApp1\TestProgram.csproj", "{2443C503-55BA-4588-AB8E-44941C5FACA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProgram", "TestProgram\TestProgram.csproj", "{2443C503-55BA-4588-AB8E-44941C5FACA0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "Singleton\FactoryPattern.csproj", "{7359CAE2-56AD-400A-A503-10120E9D1466}"
 EndProject
@@ -59,6 +59,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{38155083-0D49-4A44-9B1E-AB7268E305DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositPattern", "CompositPattern", "{CDBF3D66-7909-4FBD-B79C-D08BEF973623}"
+	ProjectSection(SolutionItems) = preProject
+		CompositPattern\CompositDesignPattern\Readme.md = CompositPattern\CompositDesignPattern\Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositDesignPattern", "CompositPattern\CompositDesignPattern\CompositDesignPattern.csproj", "{EDA98899-7B09-442D-88FB-83BC7CDF95B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyDiectoryCompositDesignPattern", "CompositPattern\CompanyDiectoryCompositDesignPattern\CompanyDiectoryCompositDesignPattern\CompanyDiectoryCompositDesignPattern.csproj", "{2BB4619F-B914-48CA-9316-9C903834871B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +122,14 @@ Global
 		{38155083-0D49-4A44-9B1E-AB7268E305DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38155083-0D49-4A44-9B1E-AB7268E305DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38155083-0D49-4A44-9B1E-AB7268E305DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA98899-7B09-442D-88FB-83BC7CDF95B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA98899-7B09-442D-88FB-83BC7CDF95B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA98899-7B09-442D-88FB-83BC7CDF95B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA98899-7B09-442D-88FB-83BC7CDF95B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB4619F-B914-48CA-9316-9C903834871B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB4619F-B914-48CA-9316-9C903834871B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB4619F-B914-48CA-9316-9C903834871B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB4619F-B914-48CA-9316-9C903834871B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +151,9 @@ Global
 		{D76609C7-5274-4CCE-A487-D3316E0D651F} = {3C32EA63-F939-4DA2-8485-9C53C30F8B6C}
 		{3C32EA63-F939-4DA2-8485-9C53C30F8B6C} = {EF9451B1-183E-4FB3-94B0-6760184A2B53}
 		{38155083-0D49-4A44-9B1E-AB7268E305DD} = {3C32EA63-F939-4DA2-8485-9C53C30F8B6C}
+		{CDBF3D66-7909-4FBD-B79C-D08BEF973623} = {EF9451B1-183E-4FB3-94B0-6760184A2B53}
+		{EDA98899-7B09-442D-88FB-83BC7CDF95B5} = {CDBF3D66-7909-4FBD-B79C-D08BEF973623}
+		{2BB4619F-B914-48CA-9316-9C903834871B} = {CDBF3D66-7909-4FBD-B79C-D08BEF973623}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {918239B4-F2DD-4B1E-8B14-60CD9A0C91BC}
