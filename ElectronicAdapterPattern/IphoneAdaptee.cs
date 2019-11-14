@@ -4,10 +4,12 @@ using System.Text;
 
 namespace ElectronicAdapterPattern
 {
-    class Iphone
+    class IphoneAdaptee: PhoneAdaptee
     {
         public Random rd = new Random();
-        public void ReCharge()
+        private bool isIPhoneAdapterConnected = false;
+
+        public override void ReCharge()
         {
             int percentToCompletedCharge = 0;
             Console.WriteLine("======================***==================");
@@ -17,9 +19,18 @@ namespace ElectronicAdapterPattern
                 percentToCompletedCharge = percentToCompletedCharge < 100 ? percentToCompletedCharge +=10 : 100;
                 Console.WriteLine($"Recharge {percentToCompletedCharge} %");
             }
-            percentToCompletedCharge = percentToCompletedCharge < 100 ? percentToCompletedCharge : 100;
-            Console.WriteLine("Full baterry");
-
+            _ = percentToCompletedCharge < 100 ? percentToCompletedCharge : 100;
+            Console.WriteLine($"Fully charging!");
         }
+        public IphoneAdaptee()
+        {
+            RegisterLightningPort();
+        }
+        public void RegisterLightningPort()
+        {
+            isIPhoneAdapterConnected = true;
+            Console.WriteLine("Lightning port has register successfully and ready to use");
+        }
+
     }
 }

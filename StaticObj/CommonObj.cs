@@ -19,7 +19,8 @@ namespace StaticObj
             [Description("Sleep 2 seconds")]
             TwoSeconds = 2000
         }
-       public enum LoginErrorMessage{
+        public enum LoginErrorMessage
+        {
 
             [Description("Cannot login {0} user(s) at the same time")]
             MultipleLoginErrorMessage,
@@ -39,6 +40,12 @@ namespace StaticObj
             [Description("tea")]
             Tea
         }
+        public enum PhoneCableType
+        {
+            [Description("lightning")]
+            Lightning,
+            [Description("microusb")]
+            MicroUSBCable
+        }
     }
-   
 }

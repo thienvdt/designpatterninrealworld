@@ -1,4 +1,6 @@
-﻿using System;
+﻿using StaticObj;
+using System;
+using static StaticObj.CommonObj;
 
 namespace ElectronicAdapterPattern
 {
@@ -6,8 +8,8 @@ namespace ElectronicAdapterPattern
     {
         static void Main(string[] args)
         {
-            Charger charger = new Adapter();
-
+            Adapter charger = new Adapter();
+            charger.GetAdaptee(PhoneCableType.MicroUSBCable.GetEnumDescription());
             charger.Charge();
         }
        
